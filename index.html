@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Serviços - Repara Tec</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #1a73e8; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #f1f1f1; padding: 10px; text-align: center; }
+    nav a { margin: 0 10px; text-decoration: none; color: #333; }
+    section { padding: 20px; }
+    .servico { border: 1px solid #ddd; margin-bottom: 15px; padding: 10px; border-radius: 5px; }
+    form input, form textarea, form select { width: 100%; margin: 10px 0; padding: 10px; }
+    form button { padding: 10px 20px; background-color: #1a73e8; color: white; border: none; cursor: pointer; }
+    .logo { max-width: 200px; margin: 20px auto; display: block; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="repara-tec-logo.jpg" alt="Logo Repara Tec" class="logo">
+    <h1>Assistência Técnica Repara Tec</h1>
+    <p>Seu computador em boas mãos</p>
+  </header>
+
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#orcamento">Orçamento</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="servicos">
+    <h2>Serviços Oferecidos</h2>
+    <div class="servico">
+      <h3>Limpeza</h3>
+      <p>Limpeza interna e externa com manutenção preventiva.</p>
+      <p><strong>Preço:</strong> a partir de R$80</p>
+    </div>
+    <div class="servico">
+      <h3>Formatação</h3>
+      <p>Formatação completa com backup, drivers e otimização.</p>
+      <p><strong>Preço:</strong> a partir de R$100</p>
+    </div>
+    <div class="servico">
+      <h3>Instalação de Softwares e Sistemas</h3>
+      <p>Instalamos sistemas operacionais e softwares diversos.</p>
+      <p><strong>Preço:</strong> sob consulta</p>
+    </div>
+    <div class="servico">
+      <h3>Reset de Senha</h3>
+      <p>Recuperação e redefinição de senha de acesso ao sistema.</p>
+      <p><strong>Preço:</strong> a partir de R$50</p>
+    </div>
+  </section>
+
+  <section id="orcamento">
+    <h2>Solicite um Orçamento</h2>
+    <form action="mailto:davidharrison895@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <input type="tel" name="telefone" placeholder="Seu WhatsApp">
+      <select name="servico">
+        <option value="limpeza">Limpeza</option>
+        <option value="formatacao">Formatação</option>
+        <option value="instalacao">Instalação de softwares e sistemas</option>
+        <option value="reset">Reset de senha</option>
+      </select>
+      <textarea name="descricao" rows="5" placeholder="Descreva o problema ou dúvida"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre a Repara Tec</h2>
+    <p>Mais de X anos de experiência em manutenção, formatação, instalação de sistemas e suporte técnico. Atendimento personalizado para residências e pequenas empresas.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>WhatsApp: <a href="https://wa.me/5511933348495">(11) 93334-8495</a></p>
+    <p>E-mail: davidharrison895@gmail.com</p>
+  </section>
+
+</body>
+</html>
